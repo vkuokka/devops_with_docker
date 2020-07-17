@@ -1,0 +1,33 @@
+Script started on Fri Jul 17 16:02:11 2020
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hddocker ps -as[?1l>[?2004l
+]2;docker ps -as]1;dockerCONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES               SIZE
+045c794399e8        nginx               "/docker-entrypoin..."   3 minutes ago       Exited (0) 2 minutes ago                       youthful_robinson   1.11kB (virtual 132MB)
+868ee82042cb        nginx               "/docker-entrypoin..."   3 minutes ago       Exited (0) 2 minutes ago                       laughing_wozniak    1.11kB (virtual 132MB)
+70d70a63b9a4        nginx               "/docker-entrypoin..."   3 minutes ago       Up 3 minutes               80/tcp              amazing_easley      1.12kB (virtual 132MB)
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hddocker images[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nginx               latest              0901fa9da894        6 days ago          132MB
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hddocker rm 045  86 70[?1l>[?2004l
+]2;docker rm 04 86 70]1;docker04
+86
+Error response from daemon: You cannot remove a running container 70d70a63b9a4cfcb88d8273126af081c3b2ee77762b22d3ef701ca51bcba5b20. Stop the container before attempting removal or force remove
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;31m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hddocker stp p[ op   op 70[?1l>[?2004l
+]2;docker stop 70]1;docker70
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hdocker stop 70rm 04 86 70      70[?1l>[?2004l
+]2;docker rm 70]1;docker70
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hddocker rmi 099 [?1l>[?2004l
+]2;docker rmi 09]1;dockerUntagged: nginx:latest
+Untagged: nginx@sha256:a93c8a0b0974c967aebe868a186e5c205f4d3bcb5423a56559f2f9599074bbcd
+Deleted: sha256:0901fa9da894a8e9de5cb26d6749eaffb67b373dc1ff8a26c46b23b1175c913a
+Deleted: sha256:89a4b5ca03d8301855dee414fc0631cff6410a48ff3a54f5f271906b81cd4e2b
+Deleted: sha256:2e03e0e054440102d46743deb10a98bd4a2da37282a5c955c65e30a7bca53fc7
+Deleted: sha256:f7b1f49be3e1a298b598c7822a2a9334e0b806da2da34a740a4d64b7c5f877ce
+Deleted: sha256:2cdd3840848b3193bc22db56d42a6debdee858468fe3b506656d7d3c836a23c7
+Deleted: sha256:13cb14c2acd34e45446a50af25cb05095a17624678dbafbcc9e26086547c1d74
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hddocker ps -a[?1l>[?2004l
+]2;docker ps -a]1;dockerCONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hddocker images[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+[1m[7m%[27m[1m[0m                                                                                                                                              ]2;vkuokka@c2r6p13: ~/Code/devops_with_docker/part1]1;.._docker/part1[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Fri Jul 17 16:04:02 2020
