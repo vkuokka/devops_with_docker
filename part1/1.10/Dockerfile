@@ -9,5 +9,4 @@ RUN apt-get -y install nodejs
 RUN git clone https://github.com/docker-hy/frontend-example-docker.git
 WORKDIR ./frontend-example-docker
 RUN npm install
-RUN npm run build
-CMD ["npx", "serve", "-s", "-l", "5000", "dist"]
+CMD ["npm", "start"]
